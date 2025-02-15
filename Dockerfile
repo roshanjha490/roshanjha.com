@@ -15,10 +15,10 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /var/www
 
-COPY composer.json composer.lock ./
+COPY . ./
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-RUN composer install --no-dev --no-scripts --prefer-dist
+RUN composer install
 
 
 # RUN chmod -R 777 storage bootstrap/cache
