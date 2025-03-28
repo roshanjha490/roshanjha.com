@@ -47,7 +47,7 @@
                                     </span></p>
                             </li>
                         </ul>
-                        <p>You can contact me by email at <strong>hello@roshanjha490.com</strong> to say hi! I always appreciate meeting new people.</p>
+                        <p>You can contact me by email at <strong>kumarroshanjha004@outlook.com</strong> to say hi! I always appreciate meeting new people.</p>
                     </div>
                 </div>
             </div>

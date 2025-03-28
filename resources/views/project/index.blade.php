@@ -41,12 +41,9 @@
                     @foreach ($projects as $project)
                     <div class="col-xl-4 col-lg-4 col-md-4 col-6 w-100 h-auto project_content_2 mb-5">
                         <div style="border: 1px solid black; border-radius: 10px;" class="w-100 h-auto p-3">
-                            <div class="w-100 h-130px">
+                            <div class="w-100 h-30px">
                                 <div class="w-100 h-30px text-center">
                                     <b style="text-overflow: ellipsis; white-space: nowrap; overflow: hidden;" class="w-100 p-0 d-inline-block mb-0 text-center font-24">{{$project->title}}</b>
-                                </div>
-                                <div class="w-100 h-100px d-flex justify-content-center align-items-center">
-                                    <img src="{{asset('storage/'.$project->img)}}" width="35px" height="30px">
                                 </div>
                             </div>
 

@@ -86,7 +86,7 @@ class DashboardController extends Controller
                     'title' => 'Subscribed Successfully',
                 ];
 
-                Mail::to(array($request->email))->send(new EmailSubscribed($mailData));
+                // Mail::to(array($request->email))->send(new EmailSubscribed($mailData));
 
                 return 'saved';
             } else {
