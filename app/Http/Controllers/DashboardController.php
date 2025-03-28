@@ -6,7 +6,7 @@ namespace App\Http\Controllers;
 use App\Models\article;
 use App\Models\project;
 use App\Models\emaillist;
-use App\Models\user;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
